@@ -426,14 +426,14 @@ local servers = {
   -- rust_analyzer = {},
   -- tsserver = {},
 
-  lua_ls = {
-    Lua = {
-      workspace = { checkThirdParty = false },
-      telemetry = { enable = false },
-    },
-  },
+  -- lua_ls = {
+  --   Lua = {
+  --     workspace = { checkThirdParty = false },
+  --     telemetry = { enable = false },
+  --   },
+  -- },
 }
-
+require("clangd");
 -- Setup neovim lua configuration
 require('neodev').setup()
 
