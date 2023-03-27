@@ -433,7 +433,7 @@ local servers = {
   --   },
   -- },
 }
-require("clangd");
+-- require("clangd");
 -- Setup neovim lua configuration
 require('neodev').setup()
 
